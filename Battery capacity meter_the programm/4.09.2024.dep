@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>992753459</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103x8.icf</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\List\4.09.2024.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103xb.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.pbi</file>
+            <file>$PROJ_DIR$\Needed files\stm32f1xx.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nokia_1202_ste2007_display_driver.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nokia_1202_ste2007_display_driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Needed files\STE2007_nokia1202_display_driver\shared_file.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Needed files\STE2007_nokia1202_display_driver\nokia_1202_ste2007_display_driver.c</file>
+            <file>$PROJ_DIR$\Needed files\startup_stm32f103xb.S</file>
+            <file>$PROJ_DIR$\Needed files\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\Needed files\system_stm32f1xx.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\nokia_1202_ste2007_display_driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\4.09.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\4.09.2024.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Needed files\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\Needed files\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Needed files\stm32f103xb.h</file>
+            <file>$PROJ_DIR$\Needed files\core_cm3.h</file>
+            <file>$PROJ_DIR$\Needed files\cmsis_version.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 5 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 34 35 7 9 8 6 10 11 36 33 32 30 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35 36 11 7 9 30 8 15 34 23 10 18 33 6 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Needed files\STE2007_nokia1202_display_driver\nokia_1202_ste2007_display_driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 34 35 7 9 8 6 10 11 36 33 32 30 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35 36 11 7 9 30 8 15 34 23 10 18 33 6 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Needed files\startup_stm32f103xb.S</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Needed files\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 34 35 7 9 8 6 10 11 36 33 32 30 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 9 11 8 34 35 7 33 10 15 36 6 32 30</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\4.09.2024.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1 25 24 13 12 0 4 3 2</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
